@@ -1,0 +1,9 @@
+language: node_js
+node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: F6IUPsfmX+1wrxdbgXHonGtIkeCPig4odr2yf4dwHQm4lmPCtYYwd7fzsux/KDuNgxdm6cSnnt3XyCMuMfC7OHnH5tgHXRRneuMuO8dU6h5Ejsrp6zOB95rkxT1IktcaYcSdpAS8ObqMSAK/SVYinHeYtUGVpUbU64lAhB+UhaWyjBLWaps5GLvPkwL7HtlZNFpxEEuE31XN/yFckvtQgHzWPxlncygjzlAI3XuD9mFpa+fe465uf+9c7bIPvYDUDMELBmHgi4OrcabiMnSoVMu+w196CPH+gRLGlTec3zDO993nOJrHvQp8rqY8FD1KLi8hjuej80z49PzaDxp2ybhbFy4oUNE7N/Wweu2ZHc6fi0ZyHr+WnKEPkHaJi4JqjEWV/EWLcc6ueuG34RGBr2ryS7DxeH6z+5AnhIAb85JtyQHFZmHpTZBLFmYHAZJtGiOlHZ+vnvXV4TSz6vAWAKXDOIkXJghGeuk47W1AggG0TMHvkg2ce1a47+BTeL+Ivq7leuBVv/BVm3bWw0DbDOW6JR9m8WFWP4LwZ1IBzJqxTYo6Ujz42ty1scs/RgzKJK1wpJf2VxdTYGEB3TnccddKojbSrg6r8zJtr1ByjXasdJ3RZAhGJ8g1dmPjuuCU+ixQHycJ7KzK/M6tVEPZs7P82PlPy1jc8Xhjnw2UFXE=
+  app: bevening-fjord-91872
+  on:
+    repo: tardisdriver/blog-api-challenge
